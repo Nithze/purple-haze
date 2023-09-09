@@ -3,8 +3,8 @@ syntax reset
 let g:colors_name = "purple-haze"
 set background=dark
 set t_Co=256
-hi Normal guifg=#dadada ctermbg=NONE guibg=none gui=NONE
 
+hi Normal guifg=#dadada ctermbg=NONE guibg=none gui=NONE
 hi DiffText guifg=#d4d3da guibg=NONE
 hi ErrorMsg guifg=#d4d3da guibg=NONE
 hi WarningMsg guifg=#d4d3da guibg=NONE
