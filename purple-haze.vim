@@ -1,4 +1,4 @@
-i clear
+hi clear
 syntax reset
 let g:colors_name = "purple-haze"
 set background=dark
