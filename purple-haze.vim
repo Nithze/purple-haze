@@ -1,10 +1,10 @@
 hi clear
 syntax reset
-let g:colors_name = "purple-haze"
+let g:colors_name = "my-scheme"
 set background=dark
 set t_Co=256
+hi Normal guifg=#dadada ctermbg=NONE guibg=NONE gui=NONE
 
-hi Normal guifg=#dadada ctermbg=NONE guibg=none gui=NONE
 hi DiffText guifg=#d4d3da guibg=NONE
 hi ErrorMsg guifg=#d4d3da guibg=NONE
 hi WarningMsg guifg=#d4d3da guibg=NONE
@@ -18,13 +18,13 @@ hi cssIdentifier guifg=#d4d3da guibg=NONE
 hi cssImportant guifg=#d4d3da guibg=NONE
 hi Type guifg=#d4d3da guibg=NONE
 hi Identifier guifg=#d4d3da guibg=NONE
-hi PMenuSel guifg=#52398e guibg=NONE
-hi Constant guifg=#52398e guibg=NONE
-hi Repeat guifg=#52398e guibg=NONE
-hi DiffAdd guifg=#52398e guibg=NONE
-hi GitGutterAdd guifg=#52398e guibg=NONE
-hi cssIncludeKeyword guifg=#52398e guibg=NONE
-hi Keyword guifg=#52398e guibg=NONE
+hi PMenuSel guifg=#9498a6 guibg=NONE
+hi Constant guifg=#9498a6 guibg=NONE
+hi Repeat guifg=#9498a6 guibg=NONE
+hi DiffAdd guifg=#9498a6 guibg=NONE
+hi GitGutterAdd guifg=#9498a6 guibg=NONE
+hi cssIncludeKeyword guifg=#9498a6 guibg=NONE
+hi Keyword guifg=#9498a6 guibg=NONE
 hi IncSearch guifg=#52398e guibg=NONE
 hi Title guifg=#52398e guibg=NONE
 hi PreCondit guifg=#52398e guibg=NONE
@@ -46,37 +46,33 @@ hi Macro guifg=#52398e guibg=NONE
 hi DiffChange guifg=#52398e guibg=NONE
 hi GitGutterChange guifg=#52398e guibg=NONE
 hi cssColor guifg=#52398e guibg=NONE
-hi Function guifg=#807b90 guibg=NONE
-hi Directory guifg=#52398e guibg=NONE
-hi markdownLinkText guifg=#52398e guibg=NONE
-hi javaScriptBoolean guifg=#52398e guibg=NONE
-hi Include guifg=#52398e guibg=NONE
-hi Storage guifg=#52398e guibg=NONE
-hi cssClassName guifg=#52398e guibg=NONE
-hi cssClassNameDot guifg=#52398e guibg=NONE
-hi Statement guifg=#52308e guibg=NONE
-hi Operator guifg=#52308e guibg=NONE
-hi cssAttr guifg=#52308e guibg=NONE
+hi Function guifg=#52308e guibg=NONE
+hi Directory guifg=#9498a6 guibg=NONE
+hi markdownLinkText guifg=#9498a6 guibg=NONE
+hi javaScriptBoolean guifg=#9498a6 guibg=NONE
+hi Include guifg=#9498a6 guibg=NONE
+hi Storage guifg=#9498a6 guibg=NONE
+hi cssClassName guifg=#9498a6 guibg=NONE
+hi cssClassNameDot guifg=#9498a6 guibg=NONE
+hi Statement guifg=#9498a6 guibg=NONE
+hi Operator guifg=#9498a6 guibg=NONE
+hi cssAttr guifg=#9498a6 guibg=NONE
 
 
-hi Pmenu guifg=#dadada guibg=none
-hi SignColumn guibg=none
+hi Pmenu guifg=#dadada guibg=NONE
+hi SignColumn guibg=NONE
 hi Title guifg=#dadada
-hi LineNr guifg=#747474 guibg=none
-hi NonText guifg=#707070 guibg=none
-hi Comment guifg=#707070 gui=italic
-hi SpecialComment guifg=#707070 gui=italic guibg=NONE
+hi LineNr guifg=#747474 guibg=NONE
+hi NonText guifg=#57616c guibg=NONE
+hi Comment guifg=#57616c gui=italic
+hi SpecialComment guifg=#57616c gui=italic guibg=NONE
 hi CursorLine guibg=NONE
-hi TabLineFill gui=NONE guibg=none
-hi TabLine guifg=#747474 guibg=none gui=NONE
-hi StatusLine gui=none guibg=none guifg=#dadada
-hi StatusLineNC gui=NONE guibg=none guifg=#dadada
-hi Search guibg=#707070 guifg=#dadada
-hi VertSplit gui=NONE guifg=none guibg=NONE
-hi Visual gui=NONE guibg=none
-
-
-
-
+hi TabLineFill gui=NONE guibg=NONE
+hi TabLine guifg=#747474 guibg=NONE gui=NONE
+hi StatusLine gui=bold guibg=NONE guifg=#dadada
+hi StatusLineNC gui=NONE guibg=NONE guifg=#dadada
+hi Search guibg=#57616c guifg=#dadada
+hi VertSplit gui=NONE guifg=NONE guibg=NONE
+hi Visual gui=NONE guibg=NONE                                                                                                                                                                                                                                                                                                             main
 
 
